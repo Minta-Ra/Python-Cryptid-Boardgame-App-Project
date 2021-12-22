@@ -1,0 +1,37 @@
+#board {
+    background-image: url('1.png');
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(12, 8.3333333333%);
+    grid-template-rows: repeat(9, 11.1111111111%);
+    padding-top: 2vh;
+    height: 95%;
+    width: 98.3%;
+    margin: auto;
+}
+
+
+#size {
+    width: 70%;
+    height: 70%;
+    background-color: red; 
+    align-self: start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#size-even {
+    width: 70%;
+    height: 70%;
+    background-color: blue; 
+    align-self: end;
+    margin-left: auto;
+    margin-right: auto;
+}
