@@ -1,5 +1,5 @@
 #board {
-    background-image: url('1.png');
+    background-image: url('/static/images/cryptid-board.png');
     background-size: 100% 100%;
     height: 100%;
     width: 100%;
