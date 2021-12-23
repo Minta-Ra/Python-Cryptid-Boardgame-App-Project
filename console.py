@@ -1,3 +1,4 @@
+import pdb
 from models.player import Player
 from models.board import Board
 
@@ -12,3 +13,7 @@ player_repository.save(player_2)
 
 player_3 = Player("Emma", "Yellow", "Not within one space of a mountain")
 player_repository.save(player_3)
+
+################################
+
+pdb.set_trace()
