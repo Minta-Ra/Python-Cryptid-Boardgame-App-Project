@@ -4,7 +4,7 @@
 /* - Home -------------------------------- */
 
 #home-image {
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin: 0px;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body {
     background-image: url('/static/images/cryptid-board.png');
     background-size: 100% 100%;
     height: 100%;
-    width: 100%;
+    width: 90%;
     position: absolute;
 }
 

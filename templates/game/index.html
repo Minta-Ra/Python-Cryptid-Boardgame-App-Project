@@ -2,128 +2,137 @@
 
 {% block content %}
 
-<section id="board">
+<div>
 
-    <div id="grid">
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
+    <aside>
+        {% for player in players %}
+            <h3><a href="/game/clue/{{ player.id }}">{{ player.name }}</a>, colour {{ player.colour }}</h3>
+        {% endfor %}
+    </aside>
 
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
+    <section id="board">
 
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
+        <div id="grid">
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
 
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
 
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
 
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
 
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
 
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-        <div id="size"></div>
-        <div id="size-even"></div>
-    </div> 
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
 
-</section>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
 
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+            <div id="size"></div>
+            <div id="size-even"></div>
+        </div> 
+
+    </section>
+
+</div>
     
 {% endblock content %}

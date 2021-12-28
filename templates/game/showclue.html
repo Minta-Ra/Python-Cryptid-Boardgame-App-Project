@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section>
+    <section>
+        <h3>Player's name: {{ player.name }}</h3>
+        <h3>Colour: {{ player.colour }}</h3>
+        <hr>
+        <h3>Clue: {{ player.clue }}</h3>
+
+        <form action="/game">
+            <input type="submit" value="Back">
+        </form>
+        
+    </section>
+</section>
+    
+{% endblock content %}
