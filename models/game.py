@@ -19,6 +19,7 @@ class Game():
                 # print(field_result)
 
                 # Generate objects of each field
-                single_board_field = {"field_result" : field_result, "player_token" : []}
+                single_board_field = {"field_result" : field_result, "player_answer_token" : []}
                 map.append(single_board_field)
+        return map
 
