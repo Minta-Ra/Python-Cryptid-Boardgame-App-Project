@@ -1,19 +1,20 @@
 import pdb
 from models.player import Player
 from models.board import Board
+from models.game import Game
 
 import repositories.player_repository as player_repository
 import repositories.board_repository as board_repository
 
 
 player_1 = Player("Jane", "Red", "Not within one space of forest")
-player_repository.save(player_1)
+# player_repository.save(player_1)
 
 player_2 = Player("Roger", "Blue", "Within three spaces of a blue structure")
-player_repository.save(player_2)
+# player_repository.save(player_2)
 
 player_3 = Player("Emma", "Yellow", "Not within one space of a mountain")
-player_repository.save(player_3)
+# player_repository.save(player_3)
 
 board = Board("YNYYNYYNNYNNNNNYNNYNNYYNYYYNYYNYYNYY",
               "YNYYNYYNNYNNYNNYNNYYNYYNYYNNYYNYYNYY",
@@ -24,8 +25,10 @@ board = Board("YNYYNYYNNYNNNNNYNNYNNYYNYYYNYYNYYNYY",
               "YYNNYNNYNNYNNYNNNNYNNYNNYNNNNNNNNNNY",
               "YYNNNNNYNNYNNYNYNYYNYYNYYNYNNYNNYNNY",
               "YYNYYNNYNYYNYYNYNYNNNYNYYNYYNYNNYNNY")
-board_repository.save(board)
-    
+# board_repository.save(board)
+
+play_game = Game(board, [player_1, player_2, player_3])
+
 
 
 
